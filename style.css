@@ -1,0 +1,232 @@
+/*----body-*/
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body{
+font-family: "Poetsen One", sans-serif;
+font-weight: 400;
+font-style: normal;
+padding: 50px;
+}
+/*header*/
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    list-style: none;
+}
+nav ul li {
+    margin-right: 25px;
+}
+
+/*----*/
+/*--image landing--*/
+.landing {
+    padding: 50px; 
+    position: relative; 
+  }
+  
+  /* Style de l'image */
+  #fontimage {
+    width: 100%;
+    height: 650px;
+    object-fit: cover; 
+  }
+  
+  /* Style du titre h1 */
+  .landing h1 {
+    z-index: 2; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    color: whitesmoke; 
+    font-size: 60px;
+  }
+  /*------*/
+  /*---intro----*/
+  .intro p{
+    text-align: center;
+  }
+  .intro .introo{
+    
+    font-size: 25px;
+  }
+  .intro #blue{
+    color: #0000ff;
+    
+  }
+
+  /*---mains----*/
+  .main{
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .bckgr{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    height: 500px;
+    width: 700px;
+    background-color: #d5b3ff;
+  }
+  .main #img2{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+  }
+  .main #img3{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+  }
+ /*-----main2--*/
+ .mainsec{
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 150px;
+ }
+ .mainsec .video{
+  height: 500px;
+  width: 100%;
+ }
+ /*----media-*/
+ .media{
+  display: flex;
+  width: 100%;
+  height: 800px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+  
+ }
+ .media .media1{
+  display: flex;
+  flex-direction: column;
+  
+ }
+ .media .media1 img{
+  width: 500px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+ .media .media2 img{
+  width: 400px;
+  height: 500px;
+ }
+ /*----descr3-*/
+ .descr3{
+  text-align: center;
+  
+ }
+ .descr3 h3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+ }
+ .descr3 p{
+  margin-top: 50px;
+  margin-bottom: 50px;
+ }
+ .descr3 img{
+  height: 500px;
+  width: 500px;
+ }
+ /*----descr4*/
+ .descr4{
+  text-align: center;
+ }
+ .descr4 h2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+ }
+ .descr4 p{
+  margin-top: 50px;
+  margin-bottom: 50px;
+ }
+ .descr4 .media3 img{
+  height: 500px;
+  width: 500px;
+ }
+
+ /*----descr5----*/
+ .descr5{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+ }
+ .descr5 .media6 img{
+  height: 500px;
+  width: 500px;
+ }
+ .descr5 .linky{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #b1c5ff;
+  width: 400px;
+ }
+/*---footer---*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.grid-container  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Spacing between grid items (optional) */
+    align-items: center; /* Vertically align content within columns */
+    justify-content: center;
+}
+
+footer nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container input[type="submit"]{
+  background-color: #0000ff;
+  color: #b1c5ff;
+  font-size: medium;
+  font-family: "Poetsen One", sans-serif;
+  width: 100px;
+  height: 25px;
+
+}
+.grid-container input[type="email"]{
+width: 300px;
+}
+.grid-container nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center ;
+}
+
+.grid-container .nav3 label{
+    margin-bottom: 15px;
+
+
+}
+
+
+.grid-container nav{
+  display: flex;
+  
+}
